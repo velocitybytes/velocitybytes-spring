@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "app.base_url",
+      "type": "java.lang.String",
+      "description": "Description for app.base_url."
+    },
+    {
+      "name": "app.protocol",
+      "type": "java.lang.String",
+      "description": "Description for app.protocol."
+    },
+    {
+      "name": "app.elasticsearch.uri",
+      "type": "java.lang.String",
+      "description": "Description for app.elasticsearch.uri."
+    },
+    {
+      "name": "app.elasticsearch.search.index",
+      "type": "java.lang.String",
+      "description": "Description for app.elasticsearch.user.index."
+    },
+    {
+      "name": "app.elasticsearch.username",
+      "type": "java.lang.String",
+      "description": "Description for app.elasticsearch.username."
+    },
+    {
+      "name": "app.elasticsearch.password",
+      "type": "java.lang.String",
+      "description": "Description for app.elasticsearch.password."
+    }
+  ]
+}
