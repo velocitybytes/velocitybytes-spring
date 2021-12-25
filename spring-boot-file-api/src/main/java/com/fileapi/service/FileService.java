@@ -39,9 +39,9 @@ public class FileService {
         String filename = StringUtils.cleanPath(Objects.requireNonNull(multipartFile.getOriginalFilename()));
         try {
             // check if the filename contains invalid characters
-            if (filename.contains("..")) {
+            /*if (filename.contains("..")) {
                 throw new RuntimeException("Filename contains invalid path sequence " + filename);
-            }
+            }*/
             // remove dots(.) in filename
             filename = filename.substring(0, filename.lastIndexOf("."))
                     .replace(".", "") + "." + filename.substring(filename.lastIndexOf(".") + 1);
